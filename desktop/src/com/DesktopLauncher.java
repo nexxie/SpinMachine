@@ -1,14 +1,11 @@
-package com.mygdx.game.desktop;
+package com;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.mygdx.game.MainGame;
 
-import javax.naming.ldap.ControlFactory;
-
-import static com.mygdx.game.desktop.TestButton.HEIGTH;
-import static com.mygdx.game.desktop.TestButton.TITLE_NAME;
-import static com.mygdx.game.desktop.TestButton.WIDTH;
+import static com.TestButton.HEIGTH;
+import static com.TestButton.TITLE_NAME;
+import static com.TestButton.WIDTH;
 
 
 public class DesktopLauncher {
